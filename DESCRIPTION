@@ -1,0 +1,11 @@
+Package: outlierREM
+Type: Package
+Title: Removes outliers from a dataset and returns the clean dataset
+Version: 0.1.0
+Author: Ashish Shankar
+Maintainer: Ashish Shankar <ashish.shankar0894@gmail.com>
+Description: This packages uses Interquartile range(IQR) or H spread 
+      which is a statistical dispersion to obtain the values between 75th and 25th percentiles. It considers the above values to be outliers and ultimately remnoves them from the dataset.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
